@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281773C91D225E4800C1F879 /* MessageForwardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773C81D225E4800C1F879 /* MessageForwardVC.m */; };
+		281773CC1D225E5900C1F879 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773CB1D225E5900C1F879 /* Person.m */; };
+		281773CF1D22632500C1F879 /* ReceiveNotificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773CE1D22632500C1F879 /* ReceiveNotificationVC.m */; };
+		281773D31D22709300C1F879 /* ChangeMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773D21D22709300C1F879 /* ChangeMethodVC.m */; };
+		281773D91D2270FE00C1F879 /* UIImage+changeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773D81D2270FE00C1F879 /* UIImage+changeMethod.m */; };
+		281773DD1D22AC5D00C1F879 /* NSObject+addProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773DC1D22AC5D00C1F879 /* NSObject+addProperty.m */; };
+		281773E01D22BD5100C1F879 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281773DF1D22BD5100C1F879 /* status.plist */; };
+		281773E31D22BD8200C1F879 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773E21D22BD8200C1F879 /* Status.m */; };
+		281773E61D22BFA800C1F879 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 281773E51D22BFA800C1F879 /* NSObject+Model.m */; };
+		281773EA1D24BA5B00C1F879 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281773E81D24BA5B00C1F879 /* Fabric.framework */; };
+		281773EB1D24BA5B00C1F879 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281773E91D24BA5B00C1F879 /* Crashlytics.framework */; };
 		285059781D1A78FB007C0F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285059771D1A78FB007C0F76 /* main.m */; };
 		2850597B1D1A78FB007C0F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2850597A1D1A78FB007C0F76 /* AppDelegate.m */; };
 		2850597E1D1A78FB007C0F76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2850597D1D1A78FB007C0F76 /* ViewController.m */; };
@@ -16,6 +27,8 @@
 		285059911D1A78FB007C0F76 /* LearnRunTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285059901D1A78FB007C0F76 /* LearnRunTimeTests.m */; };
 		2850599C1D1A78FB007C0F76 /* LearnRunTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2850599B1D1A78FB007C0F76 /* LearnRunTimeUITests.m */; };
 		285059AB1D1A7DE7007C0F76 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285059AA1D1A7DE7007C0F76 /* PushViewController.m */; };
+		285CC9111D1E8A3C0027D1E6 /* MessageForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 285CC9101D1E8A3C0027D1E6 /* MessageForward.m */; };
+		285CC9141D1E98370027D1E6 /* MessageInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 285CC9131D1E98370027D1E6 /* MessageInvocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281773C71D225E4800C1F879 /* MessageForwardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageForwardVC.h; sourceTree = "<group>"; };
+		281773C81D225E4800C1F879 /* MessageForwardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageForwardVC.m; sourceTree = "<group>"; };
+		281773CA1D225E5900C1F879 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		281773CB1D225E5900C1F879 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		281773CD1D22632500C1F879 /* ReceiveNotificationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveNotificationVC.h; sourceTree = "<group>"; };
+		281773CE1D22632500C1F879 /* ReceiveNotificationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveNotificationVC.m; sourceTree = "<group>"; };
+		281773D11D22709300C1F879 /* ChangeMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMethodVC.h; sourceTree = "<group>"; };
+		281773D21D22709300C1F879 /* ChangeMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMethodVC.m; sourceTree = "<group>"; };
+		281773D71D2270FE00C1F879 /* UIImage+changeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+changeMethod.h"; sourceTree = "<group>"; };
+		281773D81D2270FE00C1F879 /* UIImage+changeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+changeMethod.m"; sourceTree = "<group>"; };
+		281773DB1D22AC5D00C1F879 /* NSObject+addProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+addProperty.h"; sourceTree = "<group>"; };
+		281773DC1D22AC5D00C1F879 /* NSObject+addProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+addProperty.m"; sourceTree = "<group>"; };
+		281773DF1D22BD5100C1F879 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		281773E11D22BD8200C1F879 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		281773E21D22BD8200C1F879 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		281773E41D22BFA800C1F879 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		281773E51D22BFA800C1F879 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		281773E81D24BA5B00C1F879 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		281773E91D24BA5B00C1F879 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		285059731D1A78FB007C0F76 /* LearnRunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		285059771D1A78FB007C0F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		285059791D1A78FB007C0F76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +86,10 @@
 		2850599D1D1A78FB007C0F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		285059A91D1A7DE7007C0F76 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
 		285059AA1D1A7DE7007C0F76 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		285CC90F1D1E8A3C0027D1E6 /* MessageForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageForward.h; sourceTree = "<group>"; };
+		285CC9101D1E8A3C0027D1E6 /* MessageForward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageForward.m; sourceTree = "<group>"; };
+		285CC9121D1E98370027D1E6 /* MessageInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInvocation.h; sourceTree = "<group>"; };
+		285CC9131D1E98370027D1E6 /* MessageInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInvocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281773EB1D24BA5B00C1F879 /* Crashlytics.framework in Frameworks */,
+				281773EA1D24BA5B00C1F879 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +119,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		281773C31D225D6900C1F879 /* 消息机制 */ = {
+			isa = PBXGroup;
+			children = (
+				281773C71D225E4800C1F879 /* MessageForwardVC.h */,
+				281773C81D225E4800C1F879 /* MessageForwardVC.m */,
+				281773CA1D225E5900C1F879 /* Person.h */,
+				281773CB1D225E5900C1F879 /* Person.m */,
+			);
+			name = "消息机制";
+			sourceTree = "<group>";
+		};
+		281773D01D22704500C1F879 /* 交换方法 */ = {
+			isa = PBXGroup;
+			children = (
+				281773D11D22709300C1F879 /* ChangeMethodVC.h */,
+				281773D21D22709300C1F879 /* ChangeMethodVC.m */,
+				281773D71D2270FE00C1F879 /* UIImage+changeMethod.h */,
+				281773D81D2270FE00C1F879 /* UIImage+changeMethod.m */,
+			);
+			name = "交换方法";
+			sourceTree = "<group>";
+		};
+		281773DA1D22AC2700C1F879 /* 分类添加属性 */ = {
+			isa = PBXGroup;
+			children = (
+				281773DB1D22AC5D00C1F879 /* NSObject+addProperty.h */,
+				281773DC1D22AC5D00C1F879 /* NSObject+addProperty.m */,
+			);
+			name = "分类添加属性";
+			sourceTree = "<group>";
+		};
+		281773DE1D22BCE600C1F879 /* 字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				281773E11D22BD8200C1F879 /* Status.h */,
+				281773E21D22BD8200C1F879 /* Status.m */,
+				281773E41D22BFA800C1F879 /* NSObject+Model.h */,
+				281773E51D22BFA800C1F879 /* NSObject+Model.m */,
+			);
+			name = "字典转模型";
+			sourceTree = "<group>";
+		};
 		2850596A1D1A78FA007C0F76 = {
 			isa = PBXGroup;
 			children = (
+				281773E81D24BA5B00C1F879 /* Fabric.framework */,
+				281773E91D24BA5B00C1F879 /* Crashlytics.framework */,
 				285059751D1A78FB007C0F76 /* LearnRunTime */,
 				2850598F1D1A78FB007C0F76 /* LearnRunTimeTests */,
 				2850599A1D1A78FB007C0F76 /* LearnRunTimeUITests */,
@@ -108,12 +190,17 @@
 				2850597A1D1A78FB007C0F76 /* AppDelegate.m */,
 				2850597C1D1A78FB007C0F76 /* ViewController.h */,
 				2850597D1D1A78FB007C0F76 /* ViewController.m */,
-				285059A91D1A7DE7007C0F76 /* PushViewController.h */,
-				285059AA1D1A7DE7007C0F76 /* PushViewController.m */,
+				281773DE1D22BCE600C1F879 /* 字典转模型 */,
+				281773DA1D22AC2700C1F879 /* 分类添加属性 */,
+				281773D01D22704500C1F879 /* 交换方法 */,
+				281773C31D225D6900C1F879 /* 消息机制 */,
+				285CC90E1D1E898F0027D1E6 /* 推送自定义跳转 */,
+				285CC90D1D1E89060027D1E6 /* unrecognizeSelector消息转发 */,
 				2850597F1D1A78FB007C0F76 /* Main.storyboard */,
 				285059821D1A78FB007C0F76 /* Assets.xcassets */,
 				285059841D1A78FB007C0F76 /* LaunchScreen.storyboard */,
 				285059871D1A78FB007C0F76 /* Info.plist */,
+				281773DF1D22BD5100C1F879 /* status.plist */,
 				285059761D1A78FB007C0F76 /* Supporting Files */,
 			);
 			path = LearnRunTime;
@@ -145,6 +232,28 @@
 			path = LearnRunTimeUITests;
 			sourceTree = "<group>";
 		};
+		285CC90D1D1E89060027D1E6 /* unrecognizeSelector消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				285CC9121D1E98370027D1E6 /* MessageInvocation.h */,
+				285CC9131D1E98370027D1E6 /* MessageInvocation.m */,
+				285CC90F1D1E8A3C0027D1E6 /* MessageForward.h */,
+				285CC9101D1E8A3C0027D1E6 /* MessageForward.m */,
+			);
+			name = "unrecognizeSelector消息转发";
+			sourceTree = "<group>";
+		};
+		285CC90E1D1E898F0027D1E6 /* 推送自定义跳转 */ = {
+			isa = PBXGroup;
+			children = (
+				281773CD1D22632500C1F879 /* ReceiveNotificationVC.h */,
+				281773CE1D22632500C1F879 /* ReceiveNotificationVC.m */,
+				285059A91D1A7DE7007C0F76 /* PushViewController.h */,
+				285059AA1D1A7DE7007C0F76 /* PushViewController.m */,
+			);
+			name = "推送自定义跳转";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +264,7 @@
 				2850596F1D1A78FB007C0F76 /* Sources */,
 				285059701D1A78FB007C0F76 /* Frameworks */,
 				285059711D1A78FB007C0F76 /* Resources */,
+				281773E71D24BA1B00C1F879 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -250,6 +360,7 @@
 			files = (
 				285059861D1A78FB007C0F76 /* LaunchScreen.storyboard in Resources */,
 				285059831D1A78FB007C0F76 /* Assets.xcassets in Resources */,
+				281773E01D22BD5100C1F879 /* status.plist in Resources */,
 				285059811D1A78FB007C0F76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,15 +381,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		281773E71D24BA1B00C1F879 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 6de62f98c3bacfe5357eae6d052189f176524cef 2ddefe9155ecd7d891010cbf3327647459188808731cd3586474763392dace4a";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2850596F1D1A78FB007C0F76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281773D91D2270FE00C1F879 /* UIImage+changeMethod.m in Sources */,
+				285CC9111D1E8A3C0027D1E6 /* MessageForward.m in Sources */,
+				285CC9141D1E98370027D1E6 /* MessageInvocation.m in Sources */,
+				281773CC1D225E5900C1F879 /* Person.m in Sources */,
+				281773D31D22709300C1F879 /* ChangeMethodVC.m in Sources */,
 				2850597E1D1A78FB007C0F76 /* ViewController.m in Sources */,
+				281773E31D22BD8200C1F879 /* Status.m in Sources */,
 				2850597B1D1A78FB007C0F76 /* AppDelegate.m in Sources */,
+				281773C91D225E4800C1F879 /* MessageForwardVC.m in Sources */,
+				281773E61D22BFA800C1F879 /* NSObject+Model.m in Sources */,
 				285059AB1D1A7DE7007C0F76 /* PushViewController.m in Sources */,
 				285059781D1A78FB007C0F76 /* main.m in Sources */,
+				281773DD1D22AC5D00C1F879 /* NSObject+addProperty.m in Sources */,
+				281773CF1D22632500C1F879 /* ReceiveNotificationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +487,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Yunshan Information Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Yunshan Information Technology Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -372,6 +510,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d42e1bc3-4ff7-4db7-a32d-bfd71ac3f725";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -393,7 +532,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Yunshan Information Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Yunshan Information Technology Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -408,6 +548,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d42e1bc3-4ff7-4db7-a32d-bfd71ac3f725";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -417,9 +558,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LearnRunTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lychow.pragrammer.LearnRunTime;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meicai.supplier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -428,9 +575,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LearnRunTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lychow.pragrammer.LearnRunTime;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meicai.supplier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -502,6 +655,7 @@
 				285059A21D1A78FB007C0F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		285059A31D1A78FB007C0F76 /* Build configuration list for PBXNativeTarget "LearnRunTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +664,7 @@
 				285059A51D1A78FB007C0F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		285059A61D1A78FB007C0F76 /* Build configuration list for PBXNativeTarget "LearnRunTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +673,7 @@
 				285059A81D1A78FB007C0F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
